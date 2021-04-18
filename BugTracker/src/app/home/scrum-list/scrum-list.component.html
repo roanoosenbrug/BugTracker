@@ -1,0 +1,6 @@
+<div class="list">
+    <p class="list__title"><strong>{{list.phase}}</strong></p>
+    <div class="cards">
+        <app-scrum-ticket *ngFor="let ticket of list.tickets" [ticket]="ticket"></app-scrum-ticket>
+    </div>
+</div>
